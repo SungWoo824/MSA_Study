@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="789d523c-ce22-4453-b448-a40397861bfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/event/EventDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/MsastudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/MsastudyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/configuration/RabbitMQConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/configuration/RabbitMQConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/controller/MultiplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/controller/MultiplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/controller/MultiplicationResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/controller/MultiplicationResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/domain/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/domain/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/domain/MultiplicationResultAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/domain/MultiplicationResultAttempt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/event/MultiplicationSolvedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/event/MultiplicationSolvedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/repository/MultiplicationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/repository/MultiplicationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/repository/MultiplicationResultAttemptRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/repository/MultiplicationResultAttemptRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/service/MultiplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/service/MultiplicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/service/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/service/MultiplicationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/service/RandomGeneratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/service/RandomGeneratorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/msastudy/service/RandomGeneratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/java/com/sw/multiplication/service/RandomGeneratorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/msastudy/MsastudyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/multiplication/MsastudyApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/msastudy/MultiplicationControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/multiplication/MultiplicationControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/msastudy/MultiplicationImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/multiplication/MultiplicationImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/msastudy/MultiplicationResultControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/multiplication/MultiplicationResultControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/msastudy/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/multiplication/MultiplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/msastudy/RandomGeneratorServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication/src/test/java/com/sw/multiplication/RandomGeneratorServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamification/src/main/java/com/sw/gamification/service/GameServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +65,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/multiplication" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1asuObvQ4iuiOdFlbdKhEyZrQbM" />
@@ -249,6 +227,7 @@
       <updated>1587536591748</updated>
       <workItem from="1587536595438" duration="40465000" />
       <workItem from="1588580135654" duration="32000" />
+      <workItem from="1590399702826" duration="8000" />
     </task>
     <servers />
   </component>
