@@ -16,15 +16,15 @@ public class RandomGeneratorServiceTest {
     @Autowired
     private RandomGeneratorService randomGeneratorService;
 
-    public void generateRandomFactorIsBetweenExpectedLimits() throws Exception{
+    public void generateRandomFactorIsBetweenExpectedLimits() throws Exception {
         List<Integer> randomFactors = IntStream.range(0, 1000)
-                        .map(i -> randomGeneratorService.generateRandomFactor())
-                        .boxed()
-                        .collect(Collectors.toList());
+                .map(i -> randomGeneratorService.generateRandomFactor())
+                .boxed()
+                .collect(Collectors.toList());
 
         assertThat(randomFactors)
                 .containsOnlyElementsOf(IntStream.range(11, 100)
-                .boxed()
-                .collect(Collectors.toList()));
+                        .boxed()
+                        .collect(Collectors.toList()));
     }
 }

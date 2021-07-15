@@ -22,7 +22,7 @@ public class MultiplicationServiceTest {
 
     @Test
     public void createRandomMultiplicationTest() {
-        given(randomGeneratorService.generateRandomFactor()).willReturn(50,30);
+        given(randomGeneratorService.generateRandomFactor()).willReturn(50, 30);
 
         Multiplication multiplication = multiplicationService.createRandomMultiplication();
 
