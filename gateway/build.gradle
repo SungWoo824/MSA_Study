@@ -11,17 +11,13 @@ sourceCompatibility = '1.8'
 repositories {
     mavenCentral()
 }
+
 ext {
-    set('springCloudVersion', 'Greenwich.RELEASE')
+    set('springCloudVersion', "2020.0.3")
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation('org.springframework.cloud:spring-cloud-starter-netflix-zuul') {
-        exclude group: "org.springframework.boot", module: "spring-boot-starter-tomcat"
-    }
-    implementation('org.springframework.boot:spring-boot-starter-undertow')
-    implementation('org.springframework.cloud:spring-cloud-starter-netflix-ribbon')
+    implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
